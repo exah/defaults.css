@@ -1,0 +1,35 @@
+{
+  "name": "defaults.css",
+  "version": "0.0.0",
+  "description": "normalize.css extended with opinionated resets & defaults",
+  "main": "defaults.css",
+  "style": "defaults.css",
+  "repository": "exah/defaults.css",
+  "license": "MIT",
+  "files": [
+    "defaults.css"
+  ],
+  "tags": [
+    "normalize.css",
+    "resets.css",
+    "browser",
+    "css"
+  ],
+  "scripts": {
+    "build": "postcss src/defaults.css -o defaults.css",
+    "test": "stylelint src/defaults.css",
+    "prebuild": "npm run test",
+    "prepublish": "npm run build"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "normalize.css": "^7.0.0",
+    "postcss": "^6.0.2",
+    "postcss-import": "^10.0.0",
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}

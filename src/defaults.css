@@ -10,7 +10,7 @@
 
 html {
   box-sizing: border-box; /* 1 */
-  font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; /* 2 */
+  font-family: system-ui, sans-serif; /* 2 */
   -webkit-font-smoothing: antialiased; /* 3 */
   -moz-osx-font-smoothing: grayscale; /* 3 */
 }

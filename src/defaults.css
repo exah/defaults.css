@@ -119,6 +119,21 @@ video {
 }
 
 /*
+ * Add max-width to inline-blocks
+ */
+
+audio,
+canvas,
+img,
+svg,
+video,
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+/*
  * Remove default border in iframe and fieldset
  */
 

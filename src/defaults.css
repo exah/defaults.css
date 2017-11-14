@@ -22,15 +22,6 @@ html {
 }
 
 /*
- * Do not remove default outline:
- * http://www.outlinenone.com
- */
-
-:focus {
-  outline: 1px dotted rgba(0, 0, 0, 0.5);
-}
-
-/*
  * Remove default margin and padding
  */
 
@@ -199,7 +190,9 @@ input[type="submit"],
 }
 
 /*
- * Remove the tapping delay on clickable elements.
+ * 1. Remove the tapping delay on clickable elements.
+ * 2. Remove active state outline, but do not remove focused outline
+ * http://www.outlinenone.com
  */
 
 a,
@@ -211,6 +204,12 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 1 */
+  outline: 0; /* 2 */
+}
+
+:focus {
+  outline: 1px solid; /* 2 */
+  outline-offset: 0.15em;
 }

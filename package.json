@@ -1,6 +1,6 @@
 {
   "name": "defaults.css",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "normalize.css extended with opinionated resets & defaults",
   "main": "defaults.css",
   "style": "defaults.css",

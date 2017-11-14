@@ -19,7 +19,8 @@
     "build": "postcss src/defaults.css -o defaults.css",
     "test": "stylelint src/defaults.css",
     "prebuild": "npm run test",
-    "prepublish": "npm run build"
+    "preversion": "npm run build",
+    "deploy": "np"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
@@ -27,6 +28,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "normalize.css": "^7.0.0",
+    "np": "^2.16.1",
     "postcss": "^6.0.2",
     "postcss-font-family-system-ui": "^2.0.1",
     "postcss-import": "^10.0.0",

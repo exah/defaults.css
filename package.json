@@ -26,13 +26,13 @@
     "extends": "stylelint-config-standard"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "normalize.css": "^7.0.0",
-    "np": "^2.16.1",
-    "postcss": "^6.0.2",
-    "postcss-font-family-system-ui": "^2.0.1",
-    "postcss-import": "^10.0.0",
-    "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
+    "autoprefixer": "^8.5.1",
+    "normalize.css": "^8.0.0",
+    "np": "^3.0.0",
+    "postcss": "^6.0.22",
+    "postcss-font-family-system-ui": "^3.0.0",
+    "postcss-import": "^11.1.0",
+    "stylelint": "^9.2.1",
+    "stylelint-config-standard": "^18.2.0"
   }
 }

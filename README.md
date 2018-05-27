@@ -12,7 +12,7 @@ defaults:
 
 - set `box-sizing` globally to `inherit` parent value
 - use `box-sizing: border-box` in `html`
-- set default font-family to `system-ui`
+- set default font-family to [`system-ui`](https://github.com/jonathantneal/system-font-css)
 - make inputs, buttons, links to `inherit` text styles
 - enable `font-smoothing` by default
 - `svg` to use `currentColor` for filling

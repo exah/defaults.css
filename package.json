@@ -20,7 +20,7 @@
     "test": "stylelint src/defaults.css",
     "prebuild": "npm run test",
     "preversion": "npm run build",
-    "deploy": "np"
+    "deploy": "np --no-cleanup"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
